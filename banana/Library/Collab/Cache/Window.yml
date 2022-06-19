@@ -1,0 +1,1906 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Action RPG Music 1.3.meta
+    - Assets/Action RPG Music 1.3/01Town0.wav
+    - Assets/Action RPG Music 1.3/01Town0.wav.meta
+    - Assets/Action RPG Music 1.3/01town1.wav
+    - Assets/Action RPG Music 1.3/01town1.wav.meta
+    - Assets/Action RPG Music 1.3/01town2.wav
+    - Assets/Action RPG Music 1.3/01town2.wav.meta
+    - Assets/Action RPG Music 1.3/01town4.wav
+    - Assets/Action RPG Music 1.3/01town4.wav.meta
+    - Assets/Action RPG Music 1.3/02store1.wav
+    - Assets/Action RPG Music 1.3/02store1.wav.meta
+    - Assets/Action RPG Music 1.3/02store2.wav
+    - Assets/Action RPG Music 1.3/02store2.wav.meta
+    - Assets/Action RPG Music 1.3/03bar1.wav
+    - Assets/Action RPG Music 1.3/03bar1.wav.meta
+    - Assets/Action RPG Music 1.3/03bar2NL.wav
+    - Assets/Action RPG Music 1.3/03bar2NL.wav.meta
+    - Assets/Action RPG Music 1.3/04forest1.wav
+    - Assets/Action RPG Music 1.3/04forest1.wav.meta
+    - Assets/Action RPG Music 1.3/04forest2.wav
+    - Assets/Action RPG Music 1.3/04forest2.wav.meta
+    - Assets/Action RPG Music 1.3/04forest3.wav
+    - Assets/Action RPG Music 1.3/04forest3.wav.meta
+    - Assets/Action RPG Music 1.3/04forest5.wav
+    - Assets/Action RPG Music 1.3/04forest5.wav.meta
+    - Assets/Action RPG Music 1.3/04forest6.wav
+    - Assets/Action RPG Music 1.3/04forest6.wav.meta
+    - Assets/Action RPG Music 1.3/05cave1.wav
+    - Assets/Action RPG Music 1.3/05cave1.wav.meta
+    - Assets/Action RPG Music 1.3/05cave3.wav
+    - Assets/Action RPG Music 1.3/05cave3.wav.meta
+    - Assets/Action RPG Music 1.3/06castle1.wav
+    - Assets/Action RPG Music 1.3/06castle1.wav.meta
+    - Assets/Action RPG Music 1.3/06castle2.wav
+    - Assets/Action RPG Music 1.3/06castle2.wav.meta
+    - Assets/Action RPG Music 1.3/07island1v1.wav
+    - Assets/Action RPG Music 1.3/07island1v1.wav.meta
+    - Assets/Action RPG Music 1.3/07island1v2.wav
+    - Assets/Action RPG Music 1.3/07island1v2.wav.meta
+    - Assets/Action RPG Music 1.3/07island2.wav
+    - Assets/Action RPG Music 1.3/07island2.wav.meta
+    - Assets/Action RPG Music 1.3/08sail1.wav
+    - Assets/Action RPG Music 1.3/08sail1.wav.meta
+    - Assets/Action RPG Music 1.3/08travel1.wav
+    - Assets/Action RPG Music 1.3/08travel1.wav.meta
+    - Assets/Action RPG Music 1.3/08travel2.wav
+    - Assets/Action RPG Music 1.3/08travel2.wav.meta
+    - Assets/Action RPG Music 1.3/08travel4.wav
+    - Assets/Action RPG Music 1.3/08travel4.wav.meta
+    - Assets/Action RPG Music 1.3/09battle2.wav
+    - Assets/Action RPG Music 1.3/09battle2.wav.meta
+    - Assets/Action RPG Music 1.3/09battle3.wav
+    - Assets/Action RPG Music 1.3/09battle3.wav.meta
+    - Assets/Action RPG Music 1.3/09battle8.wav
+    - Assets/Action RPG Music 1.3/09battle8.wav.meta
+    - Assets/Action RPG Music 1.3/10credits1.wav
+    - Assets/Action RPG Music 1.3/10credits1.wav.meta
+    - Assets/Action RPG Music 1.3/11minigame1.wav
+    - Assets/Action RPG Music 1.3/11minigame1.wav.meta
+    - Assets/Action RPG Music 1.3/12win1NL.wav
+    - Assets/Action RPG Music 1.3/12win1NL.wav.meta
+    - Assets/Action RPG Music 1.3/12win2NL.wav
+    - Assets/Action RPG Music 1.3/12win2NL.wav.meta
+    - Assets/Action RPG Music 1.3/12win5NL.wav
+    - Assets/Action RPG Music 1.3/12win5NL.wav.meta
+    - Assets/Action RPG Music 1.3/12win8NL.wav
+    - Assets/Action RPG Music 1.3/12win8NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover1V1NL.wav
+    - Assets/Action RPG Music 1.3/13gameover1V1NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover1V2NL.wav
+    - Assets/Action RPG Music 1.3/13gameover1V2NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover2NL.wav
+    - Assets/Action RPG Music 1.3/13gameover2NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover3NL.wav
+    - Assets/Action RPG Music 1.3/13gameover3NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover4NL.wav
+    - Assets/Action RPG Music 1.3/13gameover4NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover5NL.wav
+    - Assets/Action RPG Music 1.3/13gameover5NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover6NL.wav
+    - Assets/Action RPG Music 1.3/13gameover6NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover8NL.wav
+    - Assets/Action RPG Music 1.3/13gameover8NL.wav.meta
+    - Assets/Action RPG Music 1.3/13gameover9NL.wav
+    - Assets/Action RPG Music 1.3/13gameover9NL.wav.meta
+    - Assets/Action RPG Music 1.3/14doorNL.wav
+    - Assets/Action RPG Music 1.3/14doorNL.wav.meta
+    - Assets/Action RPG Music 1.3/14entranceNL.wav
+    - Assets/Action RPG Music 1.3/14entranceNL.wav.meta
+    - Assets/Action RPG Music 1.3/14levelup1NL.wav
+    - Assets/Action RPG Music 1.3/14levelup1NL.wav.meta
+    - Assets/Action RPG Music 1.3/14levelup2NL.wav
+    - Assets/Action RPG Music 1.3/14levelup2NL.wav.meta
+    - Assets/Action RPG Music 1.3/14secret1NL.wav
+    - Assets/Action RPG Music 1.3/14secret1NL.wav.meta
+    - Assets/Action RPG Music 1.3/14short1NL.wav
+    - Assets/Action RPG Music 1.3/14short1NL.wav.meta
+    - Assets/Action RPG Music 1.3/14short2NL.wav
+    - Assets/Action RPG Music 1.3/14short2NL.wav.meta
+    - Assets/Action RPG Music 1.3/14short3NL.wav
+    - Assets/Action RPG Music 1.3/14short3NL.wav.meta
+    - Assets/Action RPG Music 1.3/14short4NL.wav
+    - Assets/Action RPG Music 1.3/14short4NL.wav.meta
+    - Assets/Action RPG Music 1.3/ActionRPGMusicV1.3.pdf
+    - Assets/Action RPG Music 1.3/ActionRPGMusicV1.3.pdf.meta
+    - Assets/Animation.meta
+    - Assets/Animation/Alien.controller
+    - Assets/Animation/Alien.controller.meta
+    - Assets/Animation/Alien.meta
+    - Assets/Animation/Alien/Alien.controller
+    - Assets/Animation/Alien/Alien.controller.meta
+    - Assets/Animation/Alien/Alien_Damaged.anim
+    - Assets/Animation/Alien/Alien_Damaged.anim.meta
+    - Assets/Animation/Alien/Alien_Die.anim
+    - Assets/Animation/Alien/Alien_Die.anim.meta
+    - Assets/Animation/Alien/Alien_Idle.anim
+    - Assets/Animation/Alien/Alien_Idle.anim.meta
+    - Assets/Animation/Alien/Alien_Item.anim
+    - Assets/Animation/Alien/Alien_Item.anim.meta
+    - Assets/Animation/Alien/Alien_Jump.anim
+    - Assets/Animation/Alien/Alien_Jump.anim.meta
+    - Assets/Animation/Alien/Alien_Walk.anim
+    - Assets/Animation/Alien/Alien_Walk.anim.meta
+    - Assets/Animation/Alien_Damaged.anim
+    - Assets/Animation/Alien_Damaged.anim.meta
+    - Assets/Animation/Alien_Idle.anim
+    - Assets/Animation/Alien_Idle.anim.meta
+    - Assets/Animation/Alien_Jump.anim
+    - Assets/Animation/Alien_Jump.anim.meta
+    - Assets/Animation/Alien_Walk.anim
+    - Assets/Animation/Alien_Walk.anim.meta
+    - Assets/Animation/Alligator.anim
+    - Assets/Animation/Alligator.anim.meta
+    - Assets/Animation/Alligator.controller
+    - Assets/Animation/Alligator.controller.meta
+    - Assets/Animation/Birds.meta
+    - Assets/Animation/Birds/Birds.controller
+    - Assets/Animation/Birds/Birds.controller.meta
+    - Assets/Animation/Birds/BirdsEnemy.controller
+    - Assets/Animation/Birds/BirdsEnemy.controller.meta
+    - Assets/Animation/Birds/Birds_Damaged.anim
+    - Assets/Animation/Birds/Birds_Damaged.anim.meta
+    - Assets/Animation/Birds/Birds_Die.anim
+    - Assets/Animation/Birds/Birds_Die.anim.meta
+    - Assets/Animation/Birds/Birds_Enemy.anim
+    - Assets/Animation/Birds/Birds_Enemy.anim.meta
+    - Assets/Animation/Birds/Birds_Idle.anim
+    - Assets/Animation/Birds/Birds_Idle.anim.meta
+    - Assets/Animation/Birds/Birds_Item.anim
+    - Assets/Animation/Birds/Birds_Item.anim.meta
+    - Assets/Animation/Birds/Birds_Jump.anim
+    - Assets/Animation/Birds/Birds_Jump.anim.meta
+    - Assets/Animation/Birds/Birds_Walk.anim
+    - Assets/Animation/Birds/Birds_Walk.anim.meta
+    - Assets/Animation/Bronze_Coin.controller
+    - Assets/Animation/Bronze_Coin.controller.meta
+    - Assets/Animation/Coin_Bronze.anim
+    - Assets/Animation/Coin_Bronze.anim.meta
+    - Assets/Animation/Coin_Gold.anim
+    - Assets/Animation/Coin_Gold.anim.meta
+    - Assets/Animation/Coin_Silver.anim
+    - Assets/Animation/Coin_Silver.anim.meta
+    - Assets/Animation/Dinosaur.meta
+    - Assets/Animation/Dinosaur/Dinoasur_Idle.anim
+    - Assets/Animation/Dinosaur/Dinoasur_Idle.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur.controller
+    - Assets/Animation/Dinosaur/Dinosaur.controller.meta
+    - Assets/Animation/Dinosaur/DinosaurEnemy.controller
+    - Assets/Animation/Dinosaur/DinosaurEnemy.controller.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Damaged.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Damaged.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Die.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Die.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Enemy.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Enemy.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Item.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Item.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Jump.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Jump.anim.meta
+    - Assets/Animation/Dinosaur/Dinosaur_Walk.anim
+    - Assets/Animation/Dinosaur/Dinosaur_Walk.anim.meta
+    - Assets/Animation/Enemy_Mammalia.anim
+    - Assets/Animation/Enemy_Mammalia.anim.meta
+    - Assets/Animation/Enemy_Micro.anim
+    - Assets/Animation/Enemy_Micro.anim.meta
+    - Assets/Animation/Fish.meta
+    - Assets/Animation/Fish/Fish.controller
+    - Assets/Animation/Fish/Fish.controller.meta
+    - Assets/Animation/Fish/FishEnemy.controller
+    - Assets/Animation/Fish/FishEnemy.controller.meta
+    - Assets/Animation/Fish/Fish_Damaged.anim
+    - Assets/Animation/Fish/Fish_Damaged.anim.meta
+    - Assets/Animation/Fish/Fish_Die.anim
+    - Assets/Animation/Fish/Fish_Die.anim.meta
+    - Assets/Animation/Fish/Fish_Enemy.anim
+    - Assets/Animation/Fish/Fish_Enemy.anim.meta
+    - Assets/Animation/Fish/Fish_Idle.anim
+    - Assets/Animation/Fish/Fish_Idle.anim.meta
+    - Assets/Animation/Fish/Fish_Item.anim
+    - Assets/Animation/Fish/Fish_Item.anim.meta
+    - Assets/Animation/Fish/Fish_Jump.anim
+    - Assets/Animation/Fish/Fish_Jump.anim.meta
+    - Assets/Animation/Fish/Fish_Walk.anim
+    - Assets/Animation/Fish/Fish_Walk.anim.meta
+    - Assets/Animation/Gold_Coin.controller
+    - Assets/Animation/Gold_Coin.controller.meta
+    - Assets/Animation/Heart.anim
+    - Assets/Animation/Heart.anim.meta
+    - Assets/Animation/Heart.controller
+    - Assets/Animation/Heart.controller.meta
+    - Assets/Animation/Homo.meta
+    - Assets/Animation/Homo/Homo.controller
+    - Assets/Animation/Homo/Homo.controller.meta
+    - Assets/Animation/Homo/HomoEnemy.controller
+    - Assets/Animation/Homo/HomoEnemy.controller.meta
+    - Assets/Animation/Homo/Homo_Damaged.anim
+    - Assets/Animation/Homo/Homo_Damaged.anim.meta
+    - Assets/Animation/Homo/Homo_Die.anim
+    - Assets/Animation/Homo/Homo_Die.anim.meta
+    - Assets/Animation/Homo/Homo_Enemy.anim
+    - Assets/Animation/Homo/Homo_Enemy.anim.meta
+    - Assets/Animation/Homo/Homo_Idle.anim
+    - Assets/Animation/Homo/Homo_Idle.anim.meta
+    - Assets/Animation/Homo/Homo_Item.anim
+    - Assets/Animation/Homo/Homo_Item.anim.meta
+    - Assets/Animation/Homo/Homo_Jump.anim
+    - Assets/Animation/Homo/Homo_Jump.anim.meta
+    - Assets/Animation/Homo/Homo_Walk.anim
+    - Assets/Animation/Homo/Homo_Walk.anim.meta
+    - Assets/Animation/Human.meta
+    - Assets/Animation/Human/Human.controller
+    - Assets/Animation/Human/Human.controller.meta
+    - Assets/Animation/Human/Human_Idle.anim
+    - Assets/Animation/Human/Human_Idle.anim.meta
+    - Assets/Animation/Human/Human_Walk.anim
+    - Assets/Animation/Human/Human_Walk.anim.meta
+    - Assets/Animation/Item.meta
+    - Assets/Animation/Item/Heart.controller
+    - Assets/Animation/Item/Heart.controller.meta
+    - Assets/Animation/Item/Item_Heart.anim
+    - Assets/Animation/Item/Item_Heart.anim.meta
+    - Assets/Animation/Item/Item_Jump.anim
+    - Assets/Animation/Item/Item_Jump.anim.meta
+    - Assets/Animation/Item/Item_Rainbow.anim
+    - Assets/Animation/Item/Item_Rainbow.anim.meta
+    - Assets/Animation/Item/Item_Time.anim
+    - Assets/Animation/Item/Item_Time.anim.meta
+    - Assets/Animation/Item/Item_Wormhole.anim
+    - Assets/Animation/Item/Item_Wormhole.anim.meta
+    - Assets/Animation/Item/Jump.controller
+    - Assets/Animation/Item/Jump.controller.meta
+    - Assets/Animation/Item/Rainbow.controller
+    - Assets/Animation/Item/Rainbow.controller.meta
+    - Assets/Animation/Item/Time.controller
+    - Assets/Animation/Item/Time.controller.meta
+    - Assets/Animation/Item/WormHole.controller
+    - Assets/Animation/Item/WormHole.controller.meta
+    - Assets/Animation/Item_Heart.anim
+    - Assets/Animation/Item_Heart.anim.meta
+    - Assets/Animation/Item_Jump.anim
+    - Assets/Animation/Item_Jump.anim.meta
+    - Assets/Animation/Item_Rainbow.anim
+    - Assets/Animation/Item_Rainbow.anim.meta
+    - Assets/Animation/Item_Time.anim
+    - Assets/Animation/Item_Time.anim.meta
+    - Assets/Animation/Item_Wormhole.anim
+    - Assets/Animation/Item_Wormhole.anim.meta
+    - Assets/Animation/Jump.controller
+    - Assets/Animation/Jump.controller.meta
+    - Assets/Animation/Mammalia.meta
+    - Assets/Animation/Mammalia/Mammalia.controller
+    - Assets/Animation/Mammalia/Mammalia.controller.meta
+    - Assets/Animation/Mammalia/MammaliaEnemy.controller
+    - Assets/Animation/Mammalia/MammaliaEnemy.controller.meta
+    - Assets/Animation/Mammalia/Mammalia_Damaged.anim
+    - Assets/Animation/Mammalia/Mammalia_Damaged.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Die.anim
+    - Assets/Animation/Mammalia/Mammalia_Die.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Enemy.anim
+    - Assets/Animation/Mammalia/Mammalia_Enemy.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Idle.anim
+    - Assets/Animation/Mammalia/Mammalia_Idle.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Item.anim
+    - Assets/Animation/Mammalia/Mammalia_Item.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Jump.anim
+    - Assets/Animation/Mammalia/Mammalia_Jump.anim.meta
+    - Assets/Animation/Mammalia/Mammalia_Walk.anim
+    - Assets/Animation/Mammalia/Mammalia_Walk.anim.meta
+    - Assets/Animation/MammaliaEnemy.controller
+    - Assets/Animation/MammaliaEnemy.controller.meta
+    - Assets/Animation/Micro.controller
+    - Assets/Animation/Micro.controller.meta
+    - Assets/Animation/Micro.meta
+    - Assets/Animation/Micro/Enemy_Mammalia.anim
+    - Assets/Animation/Micro/Enemy_Mammalia.anim.meta
+    - Assets/Animation/Micro/Enemy_Micro.anim
+    - Assets/Animation/Micro/Enemy_Micro.anim.meta
+    - Assets/Animation/Micro/Micro.controller
+    - Assets/Animation/Micro/Micro.controller.meta
+    - Assets/Animation/Micro/MicroEnemy.controller
+    - Assets/Animation/Micro/MicroEnemy.controller.meta
+    - Assets/Animation/Micro/Micro_Damaged.anim
+    - Assets/Animation/Micro/Micro_Damaged.anim.meta
+    - Assets/Animation/Micro/Micro_Die.anim
+    - Assets/Animation/Micro/Micro_Die.anim.meta
+    - Assets/Animation/Micro/Micro_Idle.anim
+    - Assets/Animation/Micro/Micro_Idle.anim.meta
+    - Assets/Animation/Micro/Micro_Item.anim
+    - Assets/Animation/Micro/Micro_Item.anim.meta
+    - Assets/Animation/Micro/Micro_Jump.anim
+    - Assets/Animation/Micro/Micro_Jump.anim.meta
+    - Assets/Animation/Micro/Micro_Walk.anim
+    - Assets/Animation/Micro/Micro_Walk.anim.meta
+    - Assets/Animation/MicroEnemy.controller
+    - Assets/Animation/MicroEnemy.controller.meta
+    - Assets/Animation/Micro_Damage.anim
+    - Assets/Animation/Micro_Damage.anim.meta
+    - Assets/Animation/Micro_Die.anim
+    - Assets/Animation/Micro_Die.anim.meta
+    - Assets/Animation/Micro_Fire.anim
+    - Assets/Animation/Micro_Fire.anim.meta
+    - Assets/Animation/Micro_Idle.anim
+    - Assets/Animation/Micro_Idle.anim.meta
+    - Assets/Animation/Micro_Item.anim
+    - Assets/Animation/Micro_Item.anim.meta
+    - Assets/Animation/Micro_Jump.anim
+    - Assets/Animation/Micro_Jump.anim.meta
+    - Assets/Animation/Micro_Walk.anim
+    - Assets/Animation/Micro_Walk.anim.meta
+    - Assets/Animation/Pisces.controller
+    - Assets/Animation/Pisces.controller.meta
+    - Assets/Animation/Pisces_Idle.anim
+    - Assets/Animation/Pisces_Idle.anim.meta
+    - Assets/Animation/Pisces_Jump.anim
+    - Assets/Animation/Pisces_Jump.anim.meta
+    - Assets/Animation/Pisces_Walk.anim
+    - Assets/Animation/Pisces_Walk.anim.meta
+    - Assets/Animation/Player.controller
+    - Assets/Animation/Player.controller.meta
+    - Assets/Animation/Rainbow.anim
+    - Assets/Animation/Rainbow.anim.meta
+    - Assets/Animation/Rainbow.controller
+    - Assets/Animation/Rainbow.controller.meta
+    - Assets/Animation/Reptile.meta
+    - Assets/Animation/Reptile/Reptile.controller
+    - Assets/Animation/Reptile/Reptile.controller.meta
+    - Assets/Animation/Reptile/ReptileEnemy.controller
+    - Assets/Animation/Reptile/ReptileEnemy.controller.meta
+    - Assets/Animation/Reptile/Reptile_Damaged.anim
+    - Assets/Animation/Reptile/Reptile_Damaged.anim.meta
+    - Assets/Animation/Reptile/Reptile_Die.anim
+    - Assets/Animation/Reptile/Reptile_Die.anim.meta
+    - Assets/Animation/Reptile/Reptile_Enemy.anim
+    - Assets/Animation/Reptile/Reptile_Enemy.anim.meta
+    - Assets/Animation/Reptile/Reptile_Idle.anim
+    - Assets/Animation/Reptile/Reptile_Idle.anim.meta
+    - Assets/Animation/Reptile/Reptile_Item.anim
+    - Assets/Animation/Reptile/Reptile_Item.anim.meta
+    - Assets/Animation/Reptile/Reptile_Jump.anim
+    - Assets/Animation/Reptile/Reptile_Jump.anim.meta
+    - Assets/Animation/Reptile/Reptile_Walk.anim
+    - Assets/Animation/Reptile/Reptile_Walk.anim.meta
+    - Assets/Animation/SandWatch.anim
+    - Assets/Animation/SandWatch.anim.meta
+    - Assets/Animation/SandWatch.controller
+    - Assets/Animation/SandWatch.controller.meta
+    - Assets/Animation/Silver_Coin.controller
+    - Assets/Animation/Silver_Coin.controller.meta
+    - Assets/Animation/Simian.meta
+    - Assets/Animation/Simian/Simian.controller
+    - Assets/Animation/Simian/Simian.controller.meta
+    - Assets/Animation/Simian/SimianEnemy.controller
+    - Assets/Animation/Simian/SimianEnemy.controller.meta
+    - Assets/Animation/Simian/Simian_Damaged.anim
+    - Assets/Animation/Simian/Simian_Damaged.anim.meta
+    - Assets/Animation/Simian/Simian_Die.anim
+    - Assets/Animation/Simian/Simian_Die.anim.meta
+    - Assets/Animation/Simian/Simian_Enemy.anim
+    - Assets/Animation/Simian/Simian_Enemy.anim.meta
+    - Assets/Animation/Simian/Simian_Idle.anim
+    - Assets/Animation/Simian/Simian_Idle.anim.meta
+    - Assets/Animation/Simian/Simian_Item.anim
+    - Assets/Animation/Simian/Simian_Item.anim.meta
+    - Assets/Animation/Simian/Simian_Jump.anim
+    - Assets/Animation/Simian/Simian_Jump.anim.meta
+    - Assets/Animation/Simian/Simian_Walk.anim
+    - Assets/Animation/Simian/Simian_Walk.anim.meta
+    - Assets/Animation/SpeedUp.anim
+    - Assets/Animation/SpeedUp.anim.meta
+    - Assets/Animation/SpeedUp.controller
+    - Assets/Animation/SpeedUp.controller.meta
+    - Assets/Animation/Square.controller
+    - Assets/Animation/Square.controller.meta
+    - Assets/Animation/Temp.anim
+    - Assets/Animation/Temp.anim.meta
+    - Assets/Animation/Time 1.controller
+    - Assets/Animation/Time 1.controller.meta
+    - Assets/Animation/Time.anim
+    - Assets/Animation/Time.anim.meta
+    - Assets/Animation/Time.controller
+    - Assets/Animation/Time.controller.meta
+    - Assets/Animation/Time2.controller
+    - Assets/Animation/Time2.controller.meta
+    - Assets/Animation/Timeer.anim
+    - Assets/Animation/Timeer.anim.meta
+    - Assets/Animation/Trilobite.controller
+    - Assets/Animation/Trilobite.controller.meta
+    - Assets/Animation/Trilobite.meta
+    - Assets/Animation/Trilobite/Trilobite.controller
+    - Assets/Animation/Trilobite/Trilobite.controller.meta
+    - Assets/Animation/Trilobite/TrilobiteEnemy.controller
+    - Assets/Animation/Trilobite/TrilobiteEnemy.controller.meta
+    - Assets/Animation/Trilobite/Trilobite_Damaged.anim
+    - Assets/Animation/Trilobite/Trilobite_Damaged.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Die.anim
+    - Assets/Animation/Trilobite/Trilobite_Die.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Enemy.anim
+    - Assets/Animation/Trilobite/Trilobite_Enemy.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Idle.anim
+    - Assets/Animation/Trilobite/Trilobite_Idle.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Item.anim
+    - Assets/Animation/Trilobite/Trilobite_Item.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Jump.anim
+    - Assets/Animation/Trilobite/Trilobite_Jump.anim.meta
+    - Assets/Animation/Trilobite/Trilobite_Walk.anim
+    - Assets/Animation/Trilobite/Trilobite_Walk.anim.meta
+    - Assets/Animation/Trilobite_Damage.anim
+    - Assets/Animation/Trilobite_Damage.anim.meta
+    - Assets/Animation/Trilobite_Damaged.anim
+    - Assets/Animation/Trilobite_Damaged.anim.meta
+    - Assets/Animation/Trilobite_Die.anim
+    - Assets/Animation/Trilobite_Die.anim.meta
+    - Assets/Animation/Trilobite_Idle.anim
+    - Assets/Animation/Trilobite_Idle.anim.meta
+    - Assets/Animation/Trilobite_Jump.anim
+    - Assets/Animation/Trilobite_Jump.anim.meta
+    - Assets/Animation/Trilobite_Walk.anim
+    - Assets/Animation/Trilobite_Walk.anim.meta
+    - Assets/Animation/WormHole.anim
+    - Assets/Animation/WormHole.anim.meta
+    - Assets/Animation/WormHole.controller
+    - Assets/Animation/WormHole.controller.meta
+    - Assets/Animation/time2.anim
+    - Assets/Animation/time2.anim.meta
+    - Assets/Background.meta
+    - Assets/Background/Alien.jpg
+    - Assets/Background/Alien.jpg.meta
+    - Assets/Background/Birds.jpg
+    - Assets/Background/Birds.jpg.meta
+    - Assets/Background/Dinosaur.jpg
+    - Assets/Background/Dinosaur.jpg.meta
+    - Assets/Background/Fish.jpg
+    - Assets/Background/Fish.jpg.meta
+    - Assets/Background/Homo.jpg
+    - Assets/Background/Homo.jpg.meta
+    - Assets/Background/Human.jpg
+    - Assets/Background/Human.jpg.meta
+    - Assets/Background/Mammalia.jpg
+    - Assets/Background/Mammalia.jpg.meta
+    - Assets/Background/Micro.jpg
+    - Assets/Background/Micro.jpg.meta
+    - Assets/Background/Reptile.jpg
+    - Assets/Background/Reptile.jpg.meta
+    - Assets/Background/Simian.jpg
+    - Assets/Background/Simian.jpg.meta
+    - Assets/Background/Trilobite.jpg
+    - Assets/Background/Trilobite.jpg.meta
+    - Assets/Background/alligator_pixelbackground.png
+    - Assets/Background/alligator_pixelbackground.png.meta
+    - Assets/Background/de7ee9e5573fe321c57389b9f1b114b9.jpg
+    - Assets/Background/de7ee9e5573fe321c57389b9f1b114b9.jpg.meta
+    - Assets/Background/dino_poxelbackground.png
+    - Assets/Background/dino_poxelbackground.png.meta
+    - Assets/Background/homo_pixelbackground.png
+    - Assets/Background/homo_pixelbackground.png.meta
+    - Assets/Background/human_pixelbackground.jpg
+    - Assets/Background/human_pixelbackground.jpg.meta
+    - Assets/Background/monkey_pixelbackground.jpg
+    - Assets/Background/monkey_pixelbackground.jpg.meta
+    - Assets/Background/wolf_pixelbackground.png
+    - Assets/Background/wolf_pixelbackground.png.meta
+    - Assets/CasualGameBGM05.meta
+    - Assets/CasualGameBGM05/BGM_01.wav
+    - Assets/CasualGameBGM05/BGM_01.wav.meta
+    - Assets/CasualGameBGM05/BGM_02.wav
+    - Assets/CasualGameBGM05/BGM_02.wav.meta
+    - Assets/CasualGameBGM05/BGM_03.wav
+    - Assets/CasualGameBGM05/BGM_03.wav.meta
+    - Assets/CasualGameBGM05/BGM_04.wav
+    - Assets/CasualGameBGM05/BGM_04.wav.meta
+    - Assets/CasualGameBGM05/ReadMe.txt
+    - Assets/CasualGameBGM05/ReadMe.txt.meta
+    - Assets/CasualGameSounds.meta
+    - Assets/CasualGameSounds/DM-CGS-01.wav
+    - Assets/CasualGameSounds/DM-CGS-01.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-02.wav
+    - Assets/CasualGameSounds/DM-CGS-02.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-03.wav
+    - Assets/CasualGameSounds/DM-CGS-03.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-04.wav
+    - Assets/CasualGameSounds/DM-CGS-04.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-05.wav
+    - Assets/CasualGameSounds/DM-CGS-05.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-06.wav
+    - Assets/CasualGameSounds/DM-CGS-06.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-07.wav
+    - Assets/CasualGameSounds/DM-CGS-07.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-08.wav
+    - Assets/CasualGameSounds/DM-CGS-08.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-09.wav
+    - Assets/CasualGameSounds/DM-CGS-09.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-10.wav
+    - Assets/CasualGameSounds/DM-CGS-10.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-11.wav
+    - Assets/CasualGameSounds/DM-CGS-11.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-12.wav
+    - Assets/CasualGameSounds/DM-CGS-12.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-13.wav
+    - Assets/CasualGameSounds/DM-CGS-13.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-14.wav
+    - Assets/CasualGameSounds/DM-CGS-14.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-15.wav
+    - Assets/CasualGameSounds/DM-CGS-15.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-16.wav
+    - Assets/CasualGameSounds/DM-CGS-16.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-17.wav
+    - Assets/CasualGameSounds/DM-CGS-17.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-18.wav
+    - Assets/CasualGameSounds/DM-CGS-18.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-19.wav
+    - Assets/CasualGameSounds/DM-CGS-19.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-20.wav
+    - Assets/CasualGameSounds/DM-CGS-20.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-21.wav
+    - Assets/CasualGameSounds/DM-CGS-21.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-22.wav
+    - Assets/CasualGameSounds/DM-CGS-22.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-23.wav
+    - Assets/CasualGameSounds/DM-CGS-23.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-24.wav
+    - Assets/CasualGameSounds/DM-CGS-24.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-25.wav
+    - Assets/CasualGameSounds/DM-CGS-25.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-26.wav
+    - Assets/CasualGameSounds/DM-CGS-26.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-27.wav
+    - Assets/CasualGameSounds/DM-CGS-27.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-28.wav
+    - Assets/CasualGameSounds/DM-CGS-28.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-29.wav
+    - Assets/CasualGameSounds/DM-CGS-29.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-30.wav
+    - Assets/CasualGameSounds/DM-CGS-30.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-31.wav
+    - Assets/CasualGameSounds/DM-CGS-31.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-32.wav
+    - Assets/CasualGameSounds/DM-CGS-32.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-33.wav
+    - Assets/CasualGameSounds/DM-CGS-33.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-34.wav
+    - Assets/CasualGameSounds/DM-CGS-34.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-35.wav
+    - Assets/CasualGameSounds/DM-CGS-35.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-36.wav
+    - Assets/CasualGameSounds/DM-CGS-36.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-37.wav
+    - Assets/CasualGameSounds/DM-CGS-37.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-38.wav
+    - Assets/CasualGameSounds/DM-CGS-38.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-39.wav
+    - Assets/CasualGameSounds/DM-CGS-39.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-40.wav
+    - Assets/CasualGameSounds/DM-CGS-40.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-41.wav
+    - Assets/CasualGameSounds/DM-CGS-41.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-42.wav
+    - Assets/CasualGameSounds/DM-CGS-42.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-43.wav
+    - Assets/CasualGameSounds/DM-CGS-43.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-44.wav
+    - Assets/CasualGameSounds/DM-CGS-44.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-45.wav
+    - Assets/CasualGameSounds/DM-CGS-45.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-46.wav
+    - Assets/CasualGameSounds/DM-CGS-46.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-47.wav
+    - Assets/CasualGameSounds/DM-CGS-47.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-48.wav
+    - Assets/CasualGameSounds/DM-CGS-48.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-49.wav
+    - Assets/CasualGameSounds/DM-CGS-49.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-50.wav
+    - Assets/CasualGameSounds/DM-CGS-50.wav.meta
+    - Assets/CasualGameSounds/license.pdf
+    - Assets/CasualGameSounds/license.pdf.meta
+    - Assets/Explain.meta
+    - Assets/Explain/BackgroundVideo.mp4
+    - Assets/Explain/BackgroundVideo.mp4.meta
+    - Assets/Explain/KakaoTalk_20211122_111906776.png
+    - Assets/Explain/KakaoTalk_20211122_111906776.png.meta
+    - Assets/Explain/KakaoTalk_20211122_111929644.png
+    - Assets/Explain/KakaoTalk_20211122_111929644.png.meta
+    - Assets/Explain/KakaoTalk_20211122_112056316.png
+    - Assets/Explain/KakaoTalk_20211122_112056316.png.meta
+    - Assets/Explain/KakaoTalk_20211122_112749476.png
+    - Assets/Explain/KakaoTalk_20211122_112749476.png.meta
+    - Assets/Explain/KakaoTalk_20211122_112847901.png
+    - Assets/Explain/KakaoTalk_20211122_112847901.png.meta
+    - Assets/Explain/KakaoTalk_20211122_112957607.png
+    - Assets/Explain/KakaoTalk_20211122_112957607.png.meta
+    - Assets/Explain/KakaoTalk_20211122_113024371.png
+    - Assets/Explain/KakaoTalk_20211122_113024371.png.meta
+    - Assets/Explain/KakaoTalk_20211122_151435553.png
+    - Assets/Explain/KakaoTalk_20211122_151435553.png.meta
+    - Assets/Explain/New Render Texture.renderTexture
+    - Assets/Explain/New Render Texture.renderTexture.meta
+    - Assets/Fantasy Wooden GUI  Free.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity
+    - Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity.meta
+    - Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting
+    - Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png.meta
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+    - Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png.meta
+    - Assets/Material.meta
+    - Assets/Material/AlienMaterial.mat
+    - Assets/Material/AlienMaterial.mat.meta
+    - Assets/Material/BirdMaterial.mat
+    - Assets/Material/BirdMaterial.mat.meta
+    - Assets/Material/Dinosaur.mat
+    - Assets/Material/Dinosaur.mat.meta
+    - Assets/Material/FishMaterial.mat
+    - Assets/Material/FishMaterial.mat.meta
+    - Assets/Material/HomoMaterial.mat
+    - Assets/Material/HomoMaterial.mat.meta
+    - Assets/Material/HumanMaterial.mat
+    - Assets/Material/HumanMaterial.mat.meta
+    - Assets/Material/MammariaMaterial.mat
+    - Assets/Material/MammariaMaterial.mat.meta
+    - Assets/Material/MicroMaterial 1.mat
+    - Assets/Material/MicroMaterial 1.mat.meta
+    - Assets/Material/New Material.mat
+    - Assets/Material/New Material.mat.meta
+    - Assets/Material/ReptileMaterial.mat
+    - Assets/Material/ReptileMaterial.mat.meta
+    - Assets/Material/SimianMaterial.mat
+    - Assets/Material/SimianMaterial.mat.meta
+    - Assets/Material/TrilobiteMaterial.mat
+    - Assets/Material/TrilobiteMaterial.mat.meta
+    - Assets/Platform.physicsMaterial2D
+    - Assets/Platform.physicsMaterial2D.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/PlayScenes.meta
+    - Assets/Scenes/PlayScenes/AlienStage.unity
+    - Assets/Scenes/PlayScenes/AlienStage.unity.meta
+    - Assets/Scenes/PlayScenes/BirdStage.unity
+    - Assets/Scenes/PlayScenes/BirdStage.unity.meta
+    - Assets/Scenes/PlayScenes/DinosaurStage.unity
+    - Assets/Scenes/PlayScenes/DinosaurStage.unity.meta
+    - Assets/Scenes/PlayScenes/FirstView.unity
+    - Assets/Scenes/PlayScenes/FirstView.unity.meta
+    - Assets/Scenes/PlayScenes/FishStage.unity
+    - Assets/Scenes/PlayScenes/FishStage.unity.meta
+    - Assets/Scenes/PlayScenes/HomoStage.unity
+    - Assets/Scenes/PlayScenes/HomoStage.unity.meta
+    - Assets/Scenes/PlayScenes/HumanStage.unity
+    - Assets/Scenes/PlayScenes/HumanStage.unity.meta
+    - Assets/Scenes/PlayScenes/MammaliaStage.unity
+    - Assets/Scenes/PlayScenes/MammaliaStage.unity.meta
+    - Assets/Scenes/PlayScenes/MicroStage.unity
+    - Assets/Scenes/PlayScenes/MicroStage.unity.meta
+    - Assets/Scenes/PlayScenes/ReptileStage.unity
+    - Assets/Scenes/PlayScenes/ReptileStage.unity.meta
+    - Assets/Scenes/PlayScenes/SimianStage.unity
+    - Assets/Scenes/PlayScenes/SimianStage.unity.meta
+    - Assets/Scenes/PlayScenes/TrilobiteStage.unity
+    - Assets/Scenes/PlayScenes/TrilobiteStage.unity.meta
+    - Assets/Scenes/TEMP 1.meta
+    - Assets/Scenes/TEMP 1/AlienStage.unity
+    - Assets/Scenes/TEMP 1/AlienStage.unity.meta
+    - Assets/Scenes/TEMP 1/BirdStage.unity
+    - Assets/Scenes/TEMP 1/BirdStage.unity.meta
+    - Assets/Scenes/TEMP 1/DinosaurStage.unity
+    - Assets/Scenes/TEMP 1/DinosaurStage.unity.meta
+    - Assets/Scenes/TEMP 1/FishStage.unity
+    - Assets/Scenes/TEMP 1/FishStage.unity.meta
+    - Assets/Scenes/TEMP 1/HomoStage.unity
+    - Assets/Scenes/TEMP 1/HomoStage.unity.meta
+    - Assets/Scenes/TEMP 1/Main.unity
+    - Assets/Scenes/TEMP 1/Main.unity.meta
+    - Assets/Scenes/TEMP 1/MammaliaStage.unity
+    - Assets/Scenes/TEMP 1/MammaliaStage.unity.meta
+    - Assets/Scenes/TEMP 1/MicroStage.unity
+    - Assets/Scenes/TEMP 1/MicroStage.unity.meta
+    - Assets/Scenes/TEMP 1/Ranking.unity
+    - Assets/Scenes/TEMP 1/Ranking.unity.meta
+    - Assets/Scenes/TEMP 1/ReptileStage.unity
+    - Assets/Scenes/TEMP 1/ReptileStage.unity.meta
+    - Assets/Scenes/TEMP 1/SampleScene.unity
+    - Assets/Scenes/TEMP 1/SampleScene.unity.meta
+    - Assets/Scenes/TEMP 1/SimianStage.unity
+    - Assets/Scenes/TEMP 1/SimianStage.unity.meta
+    - Assets/Scenes/TEMP 1/TrilobiteStage.unity
+    - Assets/Scenes/TEMP 1/TrilobiteStage.unity.meta
+    - Assets/Scenes/TEMP 1/hierachy.unity
+    - Assets/Scenes/TEMP 1/hierachy.unity.meta
+    - Assets/Scenes/Temp.meta
+    - Assets/Scenes/VideoScene.unity
+    - Assets/Scenes/VideoScene.unity.meta
+    - Assets/Script.meta
+    - Assets/Script/EnemyMove.cs
+    - Assets/Script/EnemyMove.cs.meta
+    - Assets/Script/Item_Tile.meta
+    - Assets/Script/Item_Tile/ItemController.cs
+    - Assets/Script/Item_Tile/ItemController.cs.meta
+    - Assets/Script/Item_Tile/MovingPlatform.cs
+    - Assets/Script/Item_Tile/MovingPlatform.cs.meta
+    - Assets/Script/Item_Tile/itemGone.cs
+    - Assets/Script/Item_Tile/itemGone.cs.meta
+    - Assets/Script/Item_Tile/platform.cs
+    - Assets/Script/Item_Tile/platform.cs.meta
+    - Assets/Script/MoveStage.meta
+    - Assets/Script/MoveStage/BirdStage.cs
+    - Assets/Script/MoveStage/BirdStage.cs.meta
+    - Assets/Script/MoveStage/DinosaurStage.cs
+    - Assets/Script/MoveStage/DinosaurStage.cs.meta
+    - Assets/Script/MoveStage/Explan.cs
+    - Assets/Script/MoveStage/Explan.cs.meta
+    - Assets/Script/MoveStage/FirstView.cs
+    - Assets/Script/MoveStage/FirstView.cs.meta
+    - Assets/Script/MoveStage/FishStage.cs
+    - Assets/Script/MoveStage/FishStage.cs.meta
+    - Assets/Script/MoveStage/HomoStage.cs
+    - Assets/Script/MoveStage/HomoStage.cs.meta
+    - Assets/Script/MoveStage/HumanStage.cs
+    - Assets/Script/MoveStage/HumanStage.cs.meta
+    - Assets/Script/MoveStage/MainStage.cs
+    - Assets/Script/MoveStage/MainStage.cs.meta
+    - Assets/Script/MoveStage/MammaliaStage.cs
+    - Assets/Script/MoveStage/MammaliaStage.cs.meta
+    - Assets/Script/MoveStage/MicroStage.cs
+    - Assets/Script/MoveStage/MicroStage.cs.meta
+    - Assets/Script/MoveStage/Ranking.cs
+    - Assets/Script/MoveStage/Ranking.cs.meta
+    - Assets/Script/MoveStage/ReptileStage.cs
+    - Assets/Script/MoveStage/ReptileStage.cs.meta
+    - Assets/Script/MoveStage/SimianStage.cs
+    - Assets/Script/MoveStage/SimianStage.cs.meta
+    - Assets/Script/MoveStage/TrilobiteStage.cs
+    - Assets/Script/MoveStage/TrilobiteStage.cs.meta
+    - Assets/Script/PlayerMove.cs
+    - Assets/Script/PlayerMove.cs.meta
+    - Assets/Script/ScoreManager.cs
+    - Assets/Script/ScoreManager.cs.meta
+    - Assets/Script/SoundManager.cs
+    - Assets/Script/SoundManager.cs.meta
+    - Assets/Script/etc.meta
+    - Assets/Script/etc/Event.cs
+    - Assets/Script/etc/Event.cs.meta
+    - Assets/Script/etc/GameManager.cs
+    - Assets/Script/etc/GameManager.cs.meta
+    - Assets/Script/etc/Hit.cs
+    - Assets/Script/etc/Hit.cs.meta
+    - Assets/Script/etc/UserInterface.cs
+    - Assets/Script/etc/UserInterface.cs.meta
+    - Assets/Script/etc/camera.cs
+    - Assets/Script/etc/camera.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Alien.meta
+    - Assets/Sprites/Alien/Planet.png
+    - Assets/Sprites/Alien/Planet.png.meta
+    - "Assets/Sprites/Alien/\uC678\uACC4\uC778.png"
+    - "Assets/Sprites/Alien/\uC678\uACC4\uC778.png.meta"
+    - Assets/Sprites/AlligatorTile.png
+    - Assets/Sprites/AlligatorTile.png.meta
+    - Assets/Sprites/Birds.meta
+    - "Assets/Sprites/Birds/F-\uACE0\uC591\uC774.png"
+    - "Assets/Sprites/Birds/F-\uACE0\uC591\uC774.png.meta"
+    - "Assets/Sprites/Birds/F-\uC870\uB958 1.png"
+    - "Assets/Sprites/Birds/F-\uC870\uB958 1.png.meta"
+    - Assets/Sprites/BirdsTile.png
+    - Assets/Sprites/BirdsTile.png.meta
+    - Assets/Sprites/Coins.png
+    - Assets/Sprites/Coins.png.meta
+    - Assets/Sprites/Dinasaur.png
+    - Assets/Sprites/Dinasaur.png.meta
+    - Assets/Sprites/Dinosaur.meta
+    - Assets/Sprites/Dinosaur/Dinasaur.png
+    - Assets/Sprites/Dinosaur/Dinasaur.png.meta
+    - "Assets/Sprites/Dinosaur/F-\uC6B4\uC11D.png"
+    - "Assets/Sprites/Dinosaur/F-\uC6B4\uC11D.png.meta"
+    - Assets/Sprites/DinosaurTile.png
+    - Assets/Sprites/DinosaurTile.png.meta
+    - Assets/Sprites/Enemys-removebg-preview.png
+    - Assets/Sprites/Enemys-removebg-preview.png.meta
+    - "Assets/Sprites/F-\uACE0\uC591\uC774.png"
+    - "Assets/Sprites/F-\uACE0\uC591\uC774.png.meta"
+    - "Assets/Sprites/F-\uB291\uB300.png"
+    - "Assets/Sprites/F-\uB291\uB300.png.meta"
+    - "Assets/Sprites/F-\uB79C\uB364.png"
+    - "Assets/Sprites/F-\uB79C\uB364.png.meta"
+    - "Assets/Sprites/F-\uBB34\uD55C\uC810\uD504.png"
+    - "Assets/Sprites/F-\uBB34\uD55C\uC810\uD504.png.meta"
+    - "Assets/Sprites/F-\uBBF8\uC0DD\uBB3C 1.png"
+    - "Assets/Sprites/F-\uBBF8\uC0DD\uBB3C 1.png.meta"
+    - "Assets/Sprites/F-\uBBF8\uC0DD\uBB3C 2.png"
+    - "Assets/Sprites/F-\uBBF8\uC0DD\uBB3C 2.png.meta"
+    - "Assets/Sprites/F-\uC0BC\uC5FD\uCDA9 1.png"
+    - "Assets/Sprites/F-\uC0BC\uC5FD\uCDA9 1.png.meta"
+    - "Assets/Sprites/F-\uC138\uADE0.png"
+    - "Assets/Sprites/F-\uC138\uADE0.png.meta"
+    - "Assets/Sprites/F-\uC2DC\uACC4 2.png"
+    - "Assets/Sprites/F-\uC2DC\uACC4 2.png.meta"
+    - "Assets/Sprites/F-\uC2EC\uD574\uC5B4\uB958.png"
+    - "Assets/Sprites/F-\uC2EC\uD574\uC5B4\uB958.png.meta"
+    - "Assets/Sprites/F-\uC545\uC5B4.png"
+    - "Assets/Sprites/F-\uC545\uC5B4.png.meta"
+    - "Assets/Sprites/F-\uC5B4\uB958 1.png"
+    - "Assets/Sprites/F-\uC5B4\uB958 1.png.meta"
+    - "Assets/Sprites/F-\uC624\uC9D5\uC5B4.png"
+    - "Assets/Sprites/F-\uC624\uC9D5\uC5B4.png.meta"
+    - "Assets/Sprites/F-\uC678\uACC4\uC778 1.png"
+    - "Assets/Sprites/F-\uC678\uACC4\uC778 1.png.meta"
+    - "Assets/Sprites/F-\uC6B4\uC11D.png"
+    - "Assets/Sprites/F-\uC6B4\uC11D.png.meta"
+    - "Assets/Sprites/F-\uC6DC\uD640.png"
+    - "Assets/Sprites/F-\uC6DC\uD640.png.meta"
+    - "Assets/Sprites/F-\uC720\uC778\uC6D0.png"
+    - "Assets/Sprites/F-\uC720\uC778\uC6D0.png.meta"
+    - "Assets/Sprites/F-\uC801\uBBF8\uC0DD\uBB3C.png"
+    - "Assets/Sprites/F-\uC801\uBBF8\uC0DD\uBB3C.png.meta"
+    - "Assets/Sprites/F-\uC870\uB958 1.png"
+    - "Assets/Sprites/F-\uC870\uB958 1.png.meta"
+    - "Assets/Sprites/F-\uD0C0\uC77C.png"
+    - "Assets/Sprites/F-\uD0C0\uC77C.png.meta"
+    - "Assets/Sprites/F-\uD558\uD2B8.png"
+    - "Assets/Sprites/F-\uD558\uD2B8.png.meta"
+    - "Assets/Sprites/F-\uD638\uB791\uC774.png"
+    - "Assets/Sprites/F-\uD638\uB791\uC774.png.meta"
+    - Assets/Sprites/FAlienTile.png
+    - Assets/Sprites/FAlienTile.png.meta
+    - Assets/Sprites/FAlligatorTile.png
+    - Assets/Sprites/FAlligatorTile.png.meta
+    - Assets/Sprites/FBirdsTile.png
+    - Assets/Sprites/FBirdsTile.png.meta
+    - Assets/Sprites/FDinosaurTile.png
+    - Assets/Sprites/FDinosaurTile.png.meta
+    - "Assets/Sprites/FM-\uACE0\uC591\uC774.png"
+    - "Assets/Sprites/FM-\uACE0\uC591\uC774.png.meta"
+    - "Assets/Sprites/FM-\uB291\uB300.png"
+    - "Assets/Sprites/FM-\uB291\uB300.png.meta"
+    - "Assets/Sprites/FM-\uC138\uADE0.png"
+    - "Assets/Sprites/FM-\uC138\uADE0.png.meta"
+    - "Assets/Sprites/FM-\uC2EC\uD574\uC5B4\uB958.png"
+    - "Assets/Sprites/FM-\uC2EC\uD574\uC5B4\uB958.png.meta"
+    - "Assets/Sprites/FM-\uC545\uC5B4.png"
+    - "Assets/Sprites/FM-\uC545\uC5B4.png.meta"
+    - "Assets/Sprites/FM-\uC624\uC9D5\uC5B4.png"
+    - "Assets/Sprites/FM-\uC624\uC9D5\uC5B4.png.meta"
+    - "Assets/Sprites/FM-\uC6B4\uC11D.png"
+    - "Assets/Sprites/FM-\uC6B4\uC11D.png.meta"
+    - "Assets/Sprites/FM-\uC801\uBBF8\uC0DD\uBB3C.png"
+    - "Assets/Sprites/FM-\uC801\uBBF8\uC0DD\uBB3C.png.meta"
+    - "Assets/Sprites/FM-\uD638\uB791\uC774.png"
+    - "Assets/Sprites/FM-\uD638\uB791\uC774.png.meta"
+    - Assets/Sprites/FOriginalTile.png
+    - Assets/Sprites/FOriginalTile.png.meta
+    - Assets/Sprites/FSeaTile.png
+    - Assets/Sprites/FSeaTile.png.meta
+    - Assets/Sprites/FSimianTile.png
+    - Assets/Sprites/FSimianTile.png.meta
+    - Assets/Sprites/FTigerTile.png
+    - Assets/Sprites/FTigerTile.png.meta
+    - Assets/Sprites/FTrilobiteTile.png
+    - Assets/Sprites/FTrilobiteTile.png.meta
+    - Assets/Sprites/Fish.meta
+    - "Assets/Sprites/Fish/F-\uC5B4\uB958 1.png"
+    - "Assets/Sprites/Fish/F-\uC5B4\uB958 1.png.meta"
+    - "Assets/Sprites/Fish/F-\uC624\uC9D5\uC5B4.png"
+    - "Assets/Sprites/Fish/F-\uC624\uC9D5\uC5B4.png.meta"
+    - Assets/Sprites/Homo.meta
+    - Assets/Sprites/Homo.png
+    - Assets/Sprites/Homo.png.meta
+    - "Assets/Sprites/Homo/F-\uC138\uADE0.png"
+    - "Assets/Sprites/Homo/F-\uC138\uADE0.png.meta"
+    - "Assets/Sprites/Homo/\uD638\uBAA8\uC0AC\uD53C\uC5B8\uC2A4.png"
+    - "Assets/Sprites/Homo/\uD638\uBAA8\uC0AC\uD53C\uC5B8\uC2A4.png.meta"
+    - Assets/Sprites/Human.meta
+    - Assets/Sprites/Human.png
+    - Assets/Sprites/Human.png.meta
+    - Assets/Sprites/Human/Human.png
+    - Assets/Sprites/Human/Human.png.meta
+    - "Assets/Sprites/Human/\uC778\uAC04.png"
+    - "Assets/Sprites/Human/\uC778\uAC04.png.meta"
+    - Assets/Sprites/Item.meta
+    - "Assets/Sprites/Item/F-\uB79C\uB364.png"
+    - "Assets/Sprites/Item/F-\uB79C\uB364.png.meta"
+    - "Assets/Sprites/Item/F-\uBB34\uD55C\uC810\uD504.png"
+    - "Assets/Sprites/Item/F-\uBB34\uD55C\uC810\uD504.png.meta"
+    - "Assets/Sprites/Item/F-\uC2DC\uACC4 2.png"
+    - "Assets/Sprites/Item/F-\uC2DC\uACC4 2.png.meta"
+    - "Assets/Sprites/Item/F-\uD558\uD2B8.png"
+    - "Assets/Sprites/Item/F-\uD558\uD2B8.png.meta"
+    - Assets/Sprites/Item/Jewel.png
+    - Assets/Sprites/Item/Jewel.png.meta
+    - Assets/Sprites/Item/Wormhole.png
+    - Assets/Sprites/Item/Wormhole.png.meta
+    - Assets/Sprites/Mammalia.meta
+    - "Assets/Sprites/Mammalia/F-\uB291\uB300.png"
+    - "Assets/Sprites/Mammalia/F-\uB291\uB300.png.meta"
+    - Assets/Sprites/Mammalia/Mammalia.png
+    - Assets/Sprites/Mammalia/Mammalia.png.meta
+    - Assets/Sprites/Micro.meta
+    - "Assets/Sprites/Micro/F-\uBBF8\uC0DD\uBB3C 1.png"
+    - "Assets/Sprites/Micro/F-\uBBF8\uC0DD\uBB3C 1.png.meta"
+    - "Assets/Sprites/Micro/F-\uC801\uBBF8\uC0DD\uBB3C.png"
+    - "Assets/Sprites/Micro/F-\uC801\uBBF8\uC0DD\uBB3C.png.meta"
+    - Assets/Sprites/Planet.png
+    - Assets/Sprites/Planet.png.meta
+    - Assets/Sprites/Players-removebg-preview.png
+    - Assets/Sprites/Players-removebg-preview.png.meta
+    - Assets/Sprites/Reptile.meta
+    - Assets/Sprites/Reptile.png
+    - Assets/Sprites/Reptile.png.meta
+    - "Assets/Sprites/Reptile/F-\uC545\uC5B4.png"
+    - "Assets/Sprites/Reptile/F-\uC545\uC5B4.png.meta"
+    - Assets/Sprites/Reptile/Reptile.png
+    - Assets/Sprites/Reptile/Reptile.png.meta
+    - Assets/Sprites/Seatile.png
+    - Assets/Sprites/Seatile.png.meta
+    - Assets/Sprites/Simian.meta
+    - "Assets/Sprites/Simian/F-\uD638\uB791\uC774.png"
+    - "Assets/Sprites/Simian/F-\uD638\uB791\uC774.png.meta"
+    - "Assets/Sprites/Simian/\uC720\uC778\uC6D0.png"
+    - "Assets/Sprites/Simian/\uC720\uC778\uC6D0.png.meta"
+    - Assets/Sprites/SimianTile.png
+    - Assets/Sprites/SimianTile.png.meta
+    - Assets/Sprites/Snake.png
+    - Assets/Sprites/Snake.png.meta
+    - Assets/Sprites/TigerTile.png
+    - Assets/Sprites/TigerTile.png.meta
+    - Assets/Sprites/Tile.meta
+    - Assets/Sprites/Tile/FAlienTile.png
+    - Assets/Sprites/Tile/FAlienTile.png.meta
+    - Assets/Sprites/Tile/FAlligatorTile.png
+    - Assets/Sprites/Tile/FAlligatorTile.png.meta
+    - Assets/Sprites/Tile/FBirdsTile.png
+    - Assets/Sprites/Tile/FBirdsTile.png.meta
+    - Assets/Sprites/Tile/FDinosaurTile.png
+    - Assets/Sprites/Tile/FDinosaurTile.png.meta
+    - Assets/Sprites/Tile/FOriginalTile.png
+    - Assets/Sprites/Tile/FOriginalTile.png.meta
+    - Assets/Sprites/Tile/FSeaTile.png
+    - Assets/Sprites/Tile/FSeaTile.png.meta
+    - Assets/Sprites/Tile/FSimianTile.png
+    - Assets/Sprites/Tile/FSimianTile.png.meta
+    - Assets/Sprites/Tile/FTigerTile.png
+    - Assets/Sprites/Tile/FTigerTile.png.meta
+    - Assets/Sprites/Tile/FTrilobiteTile.png
+    - Assets/Sprites/Tile/FTrilobiteTile.png.meta
+    - Assets/Sprites/Tile/spike.png
+    - Assets/Sprites/Tile/spike.png.meta
+    - Assets/Sprites/Tile1_9.png
+    - Assets/Sprites/Tile1_9.png.meta
+    - Assets/Sprites/Trilobite.meta
+    - "Assets/Sprites/Trilobite/F-\uC2EC\uD574\uC5B4\uB958.png"
+    - "Assets/Sprites/Trilobite/F-\uC2EC\uD574\uC5B4\uB958.png.meta"
+    - "Assets/Sprites/Trilobite/\uC0BC\uC5FD\uCDA9 (1).png"
+    - "Assets/Sprites/Trilobite/\uC0BC\uC5FD\uCDA9 (1).png.meta"
+    - Assets/Sprites/TrilobiteTile.png
+    - Assets/Sprites/TrilobiteTile.png.meta
+    - Assets/Sprites/Wormhole.png
+    - Assets/Sprites/Wormhole.png.meta
+    - Assets/Sprites/fire.png
+    - Assets/Sprites/fire.png.meta
+    - Assets/Sprites/heart 1.png
+    - Assets/Sprites/heart 1.png.meta
+    - Assets/Sprites/original_tile.png
+    - Assets/Sprites/original_tile.png.meta
+    - Assets/Sprites/spike.png
+    - Assets/Sprites/spike.png.meta
+    - Assets/Sprites/wolf.png
+    - Assets/Sprites/wolf.png.meta
+    - "Assets/Sprites/\uACF5\uB8E1.png"
+    - "Assets/Sprites/\uACF5\uB8E1.png.meta"
+    - "Assets/Sprites/\uBC29\uD574\uBB3C (1).png"
+    - "Assets/Sprites/\uBC29\uD574\uBB3C (1).png.meta"
+    - "Assets/Sprites/\uC0BC\uC5FD\uCDA9 (1).png"
+    - "Assets/Sprites/\uC0BC\uC5FD\uCDA9 (1).png.meta"
+    - "Assets/Sprites/\uC6D0\uC11D (1).png"
+    - "Assets/Sprites/\uC6D0\uC11D (1).png.meta"
+    - "Assets/Sprites/\uC6D0\uC11D (2).png"
+    - "Assets/Sprites/\uC6D0\uC11D (2).png.meta"
+    - "Assets/Sprites/\uC6D0\uC11D (3).png"
+    - "Assets/Sprites/\uC6D0\uC11D (3).png.meta"
+    - "Assets/Sprites/\uC6D0\uC11D.png"
+    - "Assets/Sprites/\uC6D0\uC11D.png.meta"
+    - "Assets/Sprites/\uC6D0\uC11D\uB3CC.png"
+    - "Assets/Sprites/\uC6D0\uC11D\uB3CC.png.meta"
+    - "Assets/Sprites/\uC778\uAC04ALL.png"
+    - "Assets/Sprites/\uC778\uAC04ALL.png.meta"
+    - "Assets/Sprites/\uD30C\uCDA9\uB958.png"
+    - "Assets/Sprites/\uD30C\uCDA9\uB958.png.meta"
+    - "Assets/Sprites/\uD3EC\uC720\uB958.png"
+    - "Assets/Sprites/\uD3EC\uC720\uB958.png.meta"
+    - "Assets/Sprites/\uD589\uC131.png"
+    - "Assets/Sprites/\uD589\uC131.png.meta"
+    - "Assets/Sprites/\uD638\uBAA8\uC0AC\uD53C\uC5B8\uC2A4ALL.png"
+    - "Assets/Sprites/\uD638\uBAA8\uC0AC\uD53C\uC5B8\uC2A4ALL.png.meta"
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Dokdo-Regular.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Dokdo-Regular.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Gugi-Regular.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Gugi-Regular.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/OFL 1.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/OFL 1.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/TileMap.meta
+    - Assets/TileMap/TilePlatform.prefab
+    - Assets/TileMap/TilePlatform.prefab.meta
+    - Assets/TileMap/tile (1)_0.asset
+    - Assets/TileMap/tile (1)_0.asset.meta
+    - Assets/TileMap/tile (1)_1.asset
+    - Assets/TileMap/tile (1)_1.asset.meta
+    - Assets/TileMap/tile (1)_10.asset
+    - Assets/TileMap/tile (1)_10.asset.meta
+    - Assets/TileMap/tile (1)_11.asset
+    - Assets/TileMap/tile (1)_11.asset.meta
+    - Assets/TileMap/tile (1)_12.asset
+    - Assets/TileMap/tile (1)_12.asset.meta
+    - Assets/TileMap/tile (1)_13.asset
+    - Assets/TileMap/tile (1)_13.asset.meta
+    - Assets/TileMap/tile (1)_14.asset
+    - Assets/TileMap/tile (1)_14.asset.meta
+    - Assets/TileMap/tile (1)_15.asset
+    - Assets/TileMap/tile (1)_15.asset.meta
+    - Assets/TileMap/tile (1)_16.asset
+    - Assets/TileMap/tile (1)_16.asset.meta
+    - Assets/TileMap/tile (1)_2.asset
+    - Assets/TileMap/tile (1)_2.asset.meta
+    - Assets/TileMap/tile (1)_3.asset
+    - Assets/TileMap/tile (1)_3.asset.meta
+    - Assets/TileMap/tile (1)_4.asset
+    - Assets/TileMap/tile (1)_4.asset.meta
+    - Assets/TileMap/tile (1)_5.asset
+    - Assets/TileMap/tile (1)_5.asset.meta
+    - Assets/TileMap/tile (1)_6.asset
+    - Assets/TileMap/tile (1)_6.asset.meta
+    - Assets/TileMap/tile (1)_7.asset
+    - Assets/TileMap/tile (1)_7.asset.meta
+    - Assets/TileMap/tile (1)_8.asset
+    - Assets/TileMap/tile (1)_8.asset.meta
+    - Assets/TileMap/tile (1)_9.asset
+    - Assets/TileMap/tile (1)_9.asset.meta
+    - Assets/TileMaps.meta
+    - Assets/TileMaps/FAlienTile.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile.prefab
+    - Assets/TileMaps/FAlienTile/FAlienTile.prefab.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_0.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_0.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_1.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_1.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_10.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_10.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_11.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_11.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_12.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_12.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_13.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_13.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_14.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_14.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_15.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_15.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_16.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_16.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_2.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_2.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_3.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_3.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_4.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_4.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_5.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_5.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_6.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_6.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_7.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_7.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_8.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_8.asset.meta
+    - Assets/TileMaps/FAlienTile/FAlienTile_9.asset
+    - Assets/TileMaps/FAlienTile/FAlienTile_9.asset.meta
+    - Assets/TileMaps/FAlligatorTile.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile.prefab
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile.prefab.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_0.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_0.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_1.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_1.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_10.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_10.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_11.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_11.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_12.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_12.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_13.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_13.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_14.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_14.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_15.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_15.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_16.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_16.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_2.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_2.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_3.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_3.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_4.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_4.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_5.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_5.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_6.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_6.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_7.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_7.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_8.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_8.asset.meta
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_9.asset
+    - Assets/TileMaps/FAlligatorTile/FAlligatorTile_9.asset.meta
+    - Assets/TileMaps/FBirdsTile.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile.prefab
+    - Assets/TileMaps/FBirdsTile/FBirdsTile.prefab.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_0.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_0.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_1.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_1.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_10.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_10.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_11.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_11.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_12.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_12.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_13.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_13.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_14.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_14.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_15.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_15.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_16.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_16.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_2.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_2.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_3.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_3.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_4.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_4.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_5.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_5.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_6.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_6.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_7.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_7.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_8.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_8.asset.meta
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_9.asset
+    - Assets/TileMaps/FBirdsTile/FBirdsTile_9.asset.meta
+    - Assets/TileMaps/FDinosaurTile.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile.prefab
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile.prefab.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_0.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_0.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_1.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_1.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_10.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_10.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_11.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_11.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_12.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_12.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_13.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_13.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_14.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_14.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_15.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_15.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_16.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_16.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_2.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_2.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_3.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_3.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_4.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_4.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_5.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_5.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_6.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_6.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_7.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_7.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_8.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_8.asset.meta
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_9.asset
+    - Assets/TileMaps/FDinosaurTile/FDinosaurTile_9.asset.meta
+    - Assets/TileMaps/FOriginalTile.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _0.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _0.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _1.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _1.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _10.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _10.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _11.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _11.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _12.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _12.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _13.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _13.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _14.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _14.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _15.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _15.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _16.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _16.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _2.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _2.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _3.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _3.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _4.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _4.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _5.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _5.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _6.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _6.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _7.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _7.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _8.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _8.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _9.asset
+    - Assets/TileMaps/FOriginalTile/FOriginalTile _9.asset.meta
+    - Assets/TileMaps/FOriginalTile/FOriginalTile.prefab
+    - Assets/TileMaps/FOriginalTile/FOriginalTile.prefab.meta
+    - Assets/TileMaps/FSeaTile.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile.prefab
+    - Assets/TileMaps/FSeaTile/FSeaTile.prefab.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_0.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_0.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_1.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_1.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_10.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_10.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_11.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_11.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_12.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_12.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_13.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_13.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_14.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_14.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_15.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_15.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_16.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_16.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_2.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_2.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_3.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_3.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_4.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_4.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_5.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_5.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_6.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_6.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_7.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_7.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_8.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_8.asset.meta
+    - Assets/TileMaps/FSeaTile/FSeaTile_9.asset
+    - Assets/TileMaps/FSeaTile/FSeaTile_9.asset.meta
+    - Assets/TileMaps/FSimianTile.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile.prefab
+    - Assets/TileMaps/FSimianTile/FSimianTile.prefab.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_0.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_0.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_1.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_1.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_10.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_10.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_11.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_11.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_12.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_12.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_13.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_13.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_14.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_14.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_15.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_15.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_16.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_16.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_2.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_2.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_3.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_3.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_4.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_4.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_5.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_5.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_6.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_6.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_7.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_7.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_8.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_8.asset.meta
+    - Assets/TileMaps/FSimianTile/FSimianTile_9.asset
+    - Assets/TileMaps/FSimianTile/FSimianTile_9.asset.meta
+    - Assets/TileMaps/FTigerTile.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile.prefab
+    - Assets/TileMaps/FTigerTile/FTigerTile.prefab.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_0.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_0.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_1.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_1.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_10.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_10.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_11.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_11.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_12.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_12.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_13.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_13.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_14.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_14.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_15.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_15.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_16.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_16.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_2.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_2.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_3.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_3.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_4.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_4.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_5.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_5.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_6.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_6.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_7.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_7.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_8.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_8.asset.meta
+    - Assets/TileMaps/FTigerTile/FTigerTile_9.asset
+    - Assets/TileMaps/FTigerTile/FTigerTile_9.asset.meta
+    - Assets/TileMaps/FTrilobiteTile.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile.prefab
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile.prefab.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_0.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_0.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_1.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_1.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_10.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_10.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_11.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_11.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_12.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_12.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_13.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_13.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_14.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_14.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_15.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_15.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_16.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_16.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_2.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_2.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_3.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_3.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_4.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_4.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_5.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_5.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_6.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_6.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_7.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_7.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_8.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_8.asset.meta
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_9.asset
+    - Assets/TileMaps/FTrilobiteTile/FTrilobiteTile_9.asset.meta
+    - Assets/TileMaps/Spikes.meta
+    - Assets/TileMaps/Spikes/Spikes.prefab
+    - Assets/TileMaps/Spikes/Spikes.prefab.meta
+    - Assets/TileMaps/Spikes/spike_0 1.asset
+    - Assets/TileMaps/Spikes/spike_0 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_0.asset
+    - Assets/TileMaps/Spikes/spike_0.asset.meta
+    - Assets/TileMaps/Spikes/spike_1 1.asset
+    - Assets/TileMaps/Spikes/spike_1 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_1.asset
+    - Assets/TileMaps/Spikes/spike_1.asset.meta
+    - Assets/TileMaps/Spikes/spike_2 1.asset
+    - Assets/TileMaps/Spikes/spike_2 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_2.asset
+    - Assets/TileMaps/Spikes/spike_2.asset.meta
+    - Assets/TileMaps/Spikes/spike_3 1.asset
+    - Assets/TileMaps/Spikes/spike_3 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_3.asset
+    - Assets/TileMaps/Spikes/spike_3.asset.meta
+    - Assets/TileMaps/Spikes/spike_4 1.asset
+    - Assets/TileMaps/Spikes/spike_4 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_4.asset
+    - Assets/TileMaps/Spikes/spike_4.asset.meta
+    - Assets/TileMaps/Spikes/spike_5 1.asset
+    - Assets/TileMaps/Spikes/spike_5 1.asset.meta
+    - Assets/TileMaps/Spikes/spike_5.asset
+    - Assets/TileMaps/Spikes/spike_5.asset.meta
+    - Assets/bgm.meta
+    - "Assets/bgm/\uACF5\uB8E1.mp3"
+    - "Assets/bgm/\uACF5\uB8E1.mp3.meta"
+    - "Assets/bgm/\uBA54\uC778\uC74C\uC545.mp3"
+    - "Assets/bgm/\uBA54\uC778\uC74C\uC545.mp3.meta"
+    - "Assets/bgm/\uBBF8\uC0DD\uBB3C.mp3"
+    - "Assets/bgm/\uBBF8\uC0DD\uBB3C.mp3.meta"
+    - "Assets/bgm/\uC2DC\uC870\uC0C8 (2).mp3"
+    - "Assets/bgm/\uC2DC\uC870\uC0C8 (2).mp3.meta"
+    - "Assets/bgm/\uC5B4\uB958.mp3"
+    - "Assets/bgm/\uC5B4\uB958.mp3.meta"
+    - "Assets/bgm/\uC678\uACC4\uC778.mp3"
+    - "Assets/bgm/\uC678\uACC4\uC778.mp3.meta"
+    - "Assets/bgm/\uC720\uC778\uC6D0.mp3"
+    - "Assets/bgm/\uC720\uC778\uC6D0.mp3.meta"
+    - "Assets/bgm/\uC778\uAC04_\uB9C8\uC9C0\uB9C9.mp3"
+    - "Assets/bgm/\uC778\uAC04_\uB9C8\uC9C0\uB9C9.mp3.meta"
+    - "Assets/bgm/\uC808\uC9C0\uB958.mp3"
+    - "Assets/bgm/\uC808\uC9C0\uB958.mp3.meta"
+    - "Assets/bgm/\uD30C\uCDA9\uB958.mp3"
+    - "Assets/bgm/\uD30C\uCDA9\uB958.mp3.meta"
+    - "Assets/bgm/\uD3EC\uC720\uB958.mp3"
+    - "Assets/bgm/\uD3EC\uC720\uB958.mp3.meta"
+    - "Assets/bgm/\uD638\uBAA8.mp3"
+    - "Assets/bgm/\uD638\uBAA8.mp3.meta"
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
